@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>   
+    
+	<record id="action_update_stock_inventariopro" model="ir.actions.act_window">
+        <field name="name">Update Inventariopro Stock</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">inventariopro.update.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+
+    <menuitem id="menu_stock_inventariopro_integration" name="Update Stock" parent="stock.menu_stock_root" sequence="98" action="action_update_stock_inventariopro"/>
+</odoo>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="financing_template" inherit_id="sale.report_saleorder_document" name="Financing">
+        <xpath expr="//h2[@class='mt16']" position="replace">
+            
+        </xpath>
+        <xpath expr="//div[@name='so_total_summary']" position="after">
+            <t t-foreach="doc.order_line" t-as="line">
+                <t t-set="product" t-value="line.product_id"/>
+                <t t-if="product.extra_details">
+                    <t t-if="product.technical_details">
+                        <br role="presentation"></br>
+                        <h2 class="mt40">
+                            <span> Technical details </span>
+                            <span t-field="product.display_name"/>
+                        </h2>
+                        <table class="table table-sm">
+                            <thead style="display: table-row-group">
+                                <tr>
+                                    <th name="th_detail_att" class="text-left" style="padding-left: 20%">Attribute</th>
+                                    <th name="th_detail_value" class="text-left" >Value</th>
+                                </tr>
+                            </thead>
+                            <tbody class="sale_tbody">
+                                <t t-foreach="product.technical_details" t-as="detail">
+                                    <tr t-if="detail.attribute_id.name in ['Marca', 'Modelo', 'Color', 'Año', 'Kms', 'Consumo urbano', 'Consumo urbano extra', 'Consumo combinado', 'Transmisión', 'Potencia']" t-att-class="'bg-200 font-weight-bold o_line_section' if line.display_type == 'line_section' else 'font-italic o_line_note' if line.display_type == 'line_note' else ''">
+                                        <td name="td_att_name" class="text-left" style="padding-left: 20%">
+                                            <span t-field="detail.attribute_id"/>
+                                        </td>
+                                        <td name="td_att_value" class="text-left o_price_total">
+                                            <span t-field="detail.value_ids.name"/>
+                                        </td>
+                                    </tr>    
+                                </t>
+                            </tbody>
+                        </table>
+                        
+                    </t>
+                </t>
+            </t>
+        </xpath>
+        <xpath expr="//div[@id='informations']" position="replace">
+            <div class="row mt32 mb32" id="informations">
+                <div t-if="doc.client_order_ref" class="col-auto col-3 mw-100 mb-2">
+                    <strong>Your Reference:</strong>
+                    <p class="m-0" t-field="doc.client_order_ref"/>
+                </div>
+                <div t-if="doc.date_order and doc.state not in ['draft','sent']" class="col-auto col-3 mw-100 mb-2">
+                    <strong>Order Date:</strong>
+                    <p class="m-0" t-field="doc.date_order"/>
+                </div>
+                <div t-if="doc.date_order and doc.state in ['draft','sent']" class="col-auto col-3 mw-100 mb-2">
+                    <strong>Quotation Date:</strong>
+                    <p class="m-0" t-field="doc.date_order" t-options='{"widget": "date"}'/>
+                </div>
+                <div t-if="doc.validity_date and doc.state in ['draft', 'sent']" class="col-auto col-3 mw-100 mb-2" name="expiration_date">
+                    <strong>Expiration:</strong>
+                    <p class="m-0" t-field="doc.validity_date"/>
+                </div>
+                <div t-if="doc.comercial.name" class="col-auto col-3 mw-100 mb-2">
+                    <strong>Salesperson:</strong>
+                    <p class="m-0" t-field="doc.comercial"/>
+                </div>
+                <div t-if="doc.comercial.phone" class="col-auto col-3 mw-100 mb-2">
+                    <strong>Phone:</strong>
+                    <p class="m-0" t-esc="doc.comercial.phone"/>
+                </div>
+                <div t-if="doc.comercial.email" class="col-auto col-3 mw-100 mb-2">
+                    <strong>Email:</strong>
+                    <p class="m-0" t-esc="doc.comercial.email"/>
+                </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>

@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_inventariopro_update_wizard,access.inventariopro.update.wizard,model_inventariopro_update_wizard,base.group_user,1,1,1,1
+access_extra_details_user,sale_extra_details_user,model_product_template_attribute_line_financing,account.group_account_manager,1,1,1,1

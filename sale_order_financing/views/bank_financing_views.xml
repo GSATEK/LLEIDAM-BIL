@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="view_bank_financing_form" model="ir.ui.view">
+            <field name="name">bank.financing.form</field>
+            <field name="model">bank.financing.type</field>
+            <field name="arch" type="xml">
+                <form string="Bank">
+                    <sheet>
+                        <field name="name"/>
+                        <group name="bank_details" col="4">
+                            <field name="bank_id"/>
+                            <field name="bank_reference"/>
+                        </group>
+                        <group>
+                            <group name="financing_details" string="Financial details">
+                                <field name="interest"/>
+                                <field name="type"/>
+                                <field name="month_duration"/>
+                                <field name="start_date"/>
+                                <field name="finish_date"/>                                
+                            </group>
+                            <group name="amount_details">
+                                <field name="min_amount"/>
+                                <field name="max_amount"/>
+                                <field name="initial_amount"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_bank_financing_tree" model="ir.ui.view">
+            <field name="name">bank.financing.tree</field>
+            <field name="model">bank.financing.type</field>
+            <field name="arch" type="xml">
+                <tree string="Banks">
+                    <field name="name"/>
+                    <field name="bank_id"/>
+                    <field name="interest"/>
+                    <field name="type"/>
+                    <field name="month_duration"/>
+                    <field name="min_amount"/>
+                    <field name="max_amount"/>
+                    <field name="initial_amount"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="bank_financing_view_search" model="ir.ui.view">
+            <field name="name">bank.financing.view.search</field>
+            <field name="model">bank.financing.type</field>
+            <field name="arch" type="xml">
+                <search string="Search Financing">
+                    <field name="name"/>
+                    <field name="bank_id"/>
+                    <field name="type"/>
+                    <field name="month_duration"/>
+                </search>
+            </field>
+        </record>
+
+        <record id="action_bank_financing_form" model="ir.actions.act_window">
+            <field name="name">Financing type</field>
+            <field name="res_model">bank.financing.type</field>
+            <field name="view_mode">tree,form</field>
+            <field name="search_view_id" ref="bank_financing_view_search"/>
+            <field name="help" type="html">
+              <p class="o_view_nocontent_smiling_face">
+                Create a Financing
+              </p>
+            </field>
+        </record>
+    </data>
+</odoo>

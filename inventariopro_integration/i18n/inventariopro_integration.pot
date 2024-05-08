@@ -1,0 +1,192 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* inventariopro_integration
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-18 05:45+0000\n"
+"PO-Revision-Date: 2024-01-18 05:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: inventariopro_integration
+#: model_terms:ir.ui.view,arch_db:inventariopro_integration.inventariopro_update_form_view
+msgid ""
+"<span>\n"
+"\t\t\t\t\t\tUpdate actual stock with the stock of InventarioPro\n"
+"\t\t\t\t\t</span>"
+msgstr ""
+
+#. module: inventariopro_integration
+#: model_terms:ir.ui.view,arch_db:inventariopro_integration.financing_template
+msgid "<span> Technical details </span>"
+msgstr ""
+
+#. module: inventariopro_integration
+#: model_terms:ir.ui.view,arch_db:inventariopro_integration.financing_template
+msgid "<span> Warranty </span>"
+msgstr ""
+
+#. module: inventariopro_integration
+#: model:ir.model.fields,field_description:inventariopro_integration.field_product_template_attribute_line_financing__attribute_id
+#: model_terms:ir.ui.view,arch_db:inventariopro_integration.financing_template
+msgid "Attribute"
+msgstr ""
+
+#. module: inventariopro_integration
+#: model_terms:ir.ui.view,arch_db:inventariopro_integration.inventariopro_update_form_view
+msgid "Cancel"
+msgstr ""
+
+#. module: inventariopro_integration
+#: model:ir.model.fields,field_description:inventariopro_integration.field_product_attribute__inventario_pro_code
+msgid "Code"
+msgstr ""
+
+#. module: inventariopro_integration
+#: model:ir.model,name:inventariopro_integration.model_res_config_settings
+msgid "Config Settings"
+msgstr ""
+
+#. module: inventariopro_integration
+#: model:ir.model.fields,field_description:inventariopro_integration.field_inventariopro_update_wizard__create_uid
+#: model:ir.model.fields,field_description:inventariopro_integration.field_product_template_attribute_line_financing__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: inventariopro_integration
+#: model:ir.model.fields,field_description:inventariopro_integration.field_inventariopro_update_wizard__create_date
+#: model:ir.model.fields,field_description:inventariopro_integration.field_product_template_attribute_line_financing__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: inventariopro_integration
+#: model:ir.model.fields,field_description:inventariopro_integration.field_inventariopro_update_wizard__display_name
+#: model:ir.model.fields,field_description:inventariopro_integration.field_product_template_attribute_line_financing__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: inventariopro_integration
+#: model:ir.model.fields,field_description:inventariopro_integration.field_product_product__extra_details
+#: model:ir.model.fields,field_description:inventariopro_integration.field_product_template__extra_details
+msgid "Extra details"
+msgstr ""
+
+#. module: inventariopro_integration
+#: model_terms:ir.ui.view,arch_db:inventariopro_integration.product_template_extra_details
+msgid "Extra sale information"
+msgstr ""
+
+#. module: inventariopro_integration
+#: model:ir.model.fields,field_description:inventariopro_integration.field_res_config_settings__inventario_pro_url
+msgid "FullCalendar Permium License"
+msgstr ""
+
+#. module: inventariopro_integration
+#: model:ir.model.fields,field_description:inventariopro_integration.field_inventariopro_update_wizard__id
+#: model:ir.model.fields,field_description:inventariopro_integration.field_product_template_attribute_line_financing__id
+msgid "ID"
+msgstr ""
+
+#. module: inventariopro_integration
+#: model_terms:ir.ui.view,arch_db:inventariopro_integration.view_inventariopro_settings_form
+msgid "Integration URL"
+msgstr ""
+
+#. module: inventariopro_integration
+#: model_terms:ir.ui.view,arch_db:inventariopro_integration.view_inventariopro_settings_form
+msgid "Integration between Inventario Pro and Odoo v15"
+msgstr ""
+
+#. module: inventariopro_integration
+#: model:ir.model.fields,field_description:inventariopro_integration.field_inventariopro_update_wizard____last_update
+#: model:ir.model.fields,field_description:inventariopro_integration.field_product_template_attribute_line_financing____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: inventariopro_integration
+#: model:ir.model.fields,field_description:inventariopro_integration.field_inventariopro_update_wizard__write_uid
+#: model:ir.model.fields,field_description:inventariopro_integration.field_product_template_attribute_line_financing__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: inventariopro_integration
+#: model:ir.model.fields,field_description:inventariopro_integration.field_inventariopro_update_wizard__write_date
+#: model:ir.model.fields,field_description:inventariopro_integration.field_product_template_attribute_line_financing__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: inventariopro_integration
+#: model:ir.model.constraint,message:inventariopro_integration.constraint_product_attribute_inventario_pro_code_uniq
+msgid "Only one attribute can be imported with the same code."
+msgstr ""
+
+#. module: inventariopro_integration
+#: model:ir.model,name:inventariopro_integration.model_product_attribute
+msgid "Product Attribute"
+msgstr ""
+
+#. module: inventariopro_integration
+#: model:ir.model,name:inventariopro_integration.model_product_template
+msgid "Product Template"
+msgstr ""
+
+#. module: inventariopro_integration
+#: model:ir.model,name:inventariopro_integration.model_product_template_attribute_line_financing
+msgid "Product Template Attribute Line Financing"
+msgstr ""
+
+#. module: inventariopro_integration
+#: model_terms:ir.ui.view,arch_db:inventariopro_integration.view_inventariopro_settings_form
+msgid "Settings"
+msgstr ""
+
+#. module: inventariopro_integration
+#: model_terms:ir.ui.view,arch_db:inventariopro_integration.product_template_extra_details
+msgid "Technical details"
+msgstr ""
+
+#. module: inventariopro_integration
+#: model:ir.model.fields,field_description:inventariopro_integration.field_product_product__technical_details
+#: model:ir.model.fields,field_description:inventariopro_integration.field_product_template__technical_details
+msgid "Tecnical details"
+msgstr ""
+
+#. module: inventariopro_integration
+#: model_terms:ir.ui.view,arch_db:inventariopro_integration.inventariopro_update_form_view
+msgid "Update"
+msgstr ""
+
+#. module: inventariopro_integration
+#: model:ir.actions.act_window,name:inventariopro_integration.action_update_stock_inventariopro
+msgid "Update Inventariopro Stock"
+msgstr ""
+
+#. module: inventariopro_integration
+#: model:ir.ui.menu,name:inventariopro_integration.menu_stock_inventariopro_integration
+msgid "Update Stock"
+msgstr ""
+
+#. module: inventariopro_integration
+#: model:ir.actions.server,name:inventariopro_integration.ir_cron_inventariopro_ir_actions_server
+#: model:ir.cron,cron_name:inventariopro_integration.ir_cron_inventariopro
+#: model:ir.cron,name:inventariopro_integration.ir_cron_inventariopro
+msgid "Update stock from InventarioPro"
+msgstr ""
+
+#. module: inventariopro_integration
+#: model:ir.model.fields,field_description:inventariopro_integration.field_product_template_attribute_line_financing__value_ids
+#: model_terms:ir.ui.view,arch_db:inventariopro_integration.financing_template
+msgid "Value"
+msgstr ""
+
+#. module: inventariopro_integration
+#: model:ir.model,name:inventariopro_integration.model_inventariopro_update_wizard
+msgid "Wizard to update stock"
+msgstr ""

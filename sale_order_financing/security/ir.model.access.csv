@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_bank_financing_user,bank_financing_user,model_bank_financing_type,account.group_account_manager,1,1,1,1
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_crm_lead_form_test" model="ir.ui.view">
+            <field name="model">crm.lead</field>
+            <field name="inherit_id" ref="crm.crm_lead_view_form" />
+            <field name="arch" type="xml">
+                 <notebook position="inside">
+                    <page string="Oferta 1" name="o1">
+                        <group id="o1">
+                           <field name="oferta1" />
+                            <field name="poferta1" />
+                            <field name="color1" />
+                            <field name="pcolor1" />
+                            <field name="descompte1" />
+                            <field name="pfinal1" />
+                        </group>
+                    </page>
+                     <page string="Oferta 2" name="o2">
+                        <group id="o2">
+                            <field name="oferta2" />
+                            <field name="poferta2" />
+                            <field name="color2" />
+                            <field name="pcolor2" />
+                            <field name="descompte2" />
+                            <field name="pfinal2" />
+                        </group>
+                    </page>
+                 </notebook>
+                <xpath expr="//field[@name='stage_id']" position="after">
+                    <button string="Generar Presupuesto" type="object" class="oe_highlight" name="generar_presupuesto"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

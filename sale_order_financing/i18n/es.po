@@ -1,0 +1,289 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_order_financing
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-18 06:04+0000\n"
+"PO-Revision-Date: 2024-01-18 06:04+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sale_order_financing
+#: model_terms:ir.ui.view,arch_db:sale_order_financing.financing_template
+msgid ""
+"<span groups=\"account.group_show_line_subtotals_tax_excluded\">Price</span>\n"
+"                            <span groups=\"account.group_show_line_subtotals_tax_included\">Price</span>"
+msgstr ""
+"<span groups=\"account.group_show_line_subtotals_tax_excluded\">Precio</span>\n"
+"                            <span groups=\"account.group_show_line_subtotals_tax_included\">Precio</span>"
+
+#. module: sale_order_financing
+#: model_terms:ir.ui.view,arch_db:sale_order_financing.financing_template
+msgid "<span> %</span>"
+msgstr ""
+
+#. module: sale_order_financing
+#: model_terms:ir.ui.view,arch_db:sale_order_financing.financing_template
+msgid "<span> months</span>"
+msgstr "<span> meses</span>"
+
+#. module: sale_order_financing
+#: model_terms:ir.ui.view,arch_db:sale_order_financing.financing_template
+msgid "<span>Financing details </span>"
+msgstr "<span>Destalles de la financiación </span>"
+
+#. module: sale_order_financing
+#: model_terms:ir.ui.view,arch_db:sale_order_financing.financing_template
+msgid "<strong class=\"mr16\">Subtotal</strong>"
+msgstr ""
+
+#. module: sale_order_financing
+#: model_terms:ir.ui.view,arch_db:sale_order_financing.financing_template
+msgid "<strong>Bank:</strong>"
+msgstr "<strong>Banco:</strong>"
+
+#. module: sale_order_financing
+#: model_terms:ir.ui.view,arch_db:sale_order_financing.financing_template
+msgid "<strong>Interest:</strong>"
+msgstr "<strong>Interés:</strong>"
+
+#. module: sale_order_financing
+#: model_terms:ir.ui.view,arch_db:sale_order_financing.financing_template
+msgid "<strong>Month duration:</strong>"
+msgstr "<strong>Duración en meses:</strong>"
+
+#. module: sale_order_financing
+#: model_terms:ir.ui.view,arch_db:sale_order_financing.financing_template
+msgid "Amount to financed"
+msgstr "Cantidad a financiar"
+
+#. module: sale_order_financing
+#: model:ir.model.fields.selection,name:sale_order_financing.selection__bank_financing_type__type__anual
+#: model:ir.model.fields.selection,name:sale_order_financing.selection__sale_order__financing_type__anual
+msgid "Anual"
+msgstr "Anual"
+
+#. module: sale_order_financing
+#: model:ir.model.fields,field_description:sale_order_financing.field_bank_financing_type__bank_id
+#: model:ir.model.fields,field_description:sale_order_financing.field_sale_order__bank_id
+#: model_terms:ir.ui.view,arch_db:sale_order_financing.view_bank_financing_form
+msgid "Bank"
+msgstr "Banco"
+
+#. module: sale_order_financing
+#: model:ir.model,name:sale_order_financing.model_bank_financing_type
+msgid "Bank financing model"
+msgstr "Modelos de financiación bancaria"
+
+#. module: sale_order_financing
+#: model:ir.ui.menu,name:sale_order_financing.account_menu_banks
+#: model_terms:ir.ui.view,arch_db:sale_order_financing.view_bank_financing_tree
+msgid "Banks"
+msgstr "Bancos"
+
+#. module: sale_order_financing
+#: model:ir.model.fields.selection,name:sale_order_financing.selection__bank_financing_type__type__biannual
+#: model:ir.model.fields.selection,name:sale_order_financing.selection__sale_order__financing_type__biannual
+msgid "Biannual"
+msgstr "Semestral"
+
+#. module: sale_order_financing
+#: model_terms:ir.actions.act_window,help:sale_order_financing.action_bank_financing_form
+msgid "Create a Financing"
+msgstr "Crea un tipo de financiación"
+
+#. module: sale_order_financing
+#: model:ir.model.fields,field_description:sale_order_financing.field_bank_financing_type__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: sale_order_financing
+#: model:ir.model.fields,field_description:sale_order_financing.field_bank_financing_type__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: sale_order_financing
+#: model_terms:ir.ui.view,arch_db:sale_order_financing.financing_template
+msgid "Description"
+msgstr "Descripción"
+
+#. module: sale_order_financing
+#: model:ir.model.fields,field_description:sale_order_financing.field_bank_financing_type__display_name
+msgid "Display Name"
+msgstr "Nombre"
+
+#. module: sale_order_financing
+#: model:ir.model.fields,field_description:sale_order_financing.field_bank_financing_type__month_duration
+msgid "Duration"
+msgstr "Duración"
+
+#. module: sale_order_financing
+#: model:ir.model.fields,field_description:sale_order_financing.field_sale_order__financed_price
+msgid "Financed price"
+msgstr "Precio financiado"
+
+#. module: sale_order_financing
+#: model_terms:ir.ui.view,arch_db:sale_order_financing.view_bank_financing_form
+msgid "Financial details"
+msgstr "Detalles de la financiación"
+
+#. module: sale_order_financing
+#: model:ir.model.fields,field_description:sale_order_financing.field_sale_order__financing
+#: model_terms:ir.ui.view,arch_db:sale_order_financing.sale_order_form
+msgid "Financing"
+msgstr "Financiación"
+
+#. module: sale_order_financing
+#: model:ir.ui.menu,name:sale_order_financing.account_menu_financing
+msgid "Financing Types"
+msgstr "Tipos de financiación"
+
+#. module: sale_order_financing
+#: model:ir.actions.act_window,name:sale_order_financing.action_bank_financing_form
+#: model:ir.model.fields,field_description:sale_order_financing.field_sale_order__bank_financing_id
+msgid "Financing type"
+msgstr "Tipo de financiación"
+
+#. module: sale_order_financing
+#: model:ir.model.fields,field_description:sale_order_financing.field_bank_financing_type__id
+msgid "ID"
+msgstr "Id"
+
+#. module: sale_order_financing
+#: model:ir.model.fields,field_description:sale_order_financing.field_sale_order__initial_amount
+msgid "Initial amount"
+msgstr "Entrada"
+
+#. module: sale_order_financing
+#: model:ir.model.fields,field_description:sale_order_financing.field_bank_financing_type__initial_amount
+msgid "Initial amount %"
+msgstr "Porcentaje de entrada"
+
+#. module: sale_order_financing
+#: model_terms:ir.ui.view,arch_db:sale_order_financing.financing_template
+msgid "Initial payment"
+msgstr "Entrada"
+
+#. module: sale_order_financing
+#: model:ir.model.fields,field_description:sale_order_financing.field_bank_financing_type__interest
+#: model:ir.model.fields,field_description:sale_order_financing.field_sale_order__interest
+msgid "Interest"
+msgstr "Interés"
+
+#. module: sale_order_financing
+#: model:ir.model.fields,field_description:sale_order_financing.field_sale_order__financed_amount
+msgid "Interest price"
+msgstr "Precio del interés"
+
+#. module: sale_order_financing
+#: model:ir.model.fields,field_description:sale_order_financing.field_bank_financing_type____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: sale_order_financing
+#: model:ir.model.fields,field_description:sale_order_financing.field_bank_financing_type__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: sale_order_financing
+#: model:ir.model.fields,field_description:sale_order_financing.field_bank_financing_type__write_date
+msgid "Last Updated on"
+msgstr "Última actualización"
+
+#. module: sale_order_financing
+#: model:ir.model.fields,field_description:sale_order_financing.field_bank_financing_type__max_amount
+msgid "Max amount"
+msgstr "Cuantía máxima"
+
+#. module: sale_order_financing
+#: model:ir.model.fields.selection,name:sale_order_financing.selection__bank_financing_type__type__mensual
+#: model:ir.model.fields.selection,name:sale_order_financing.selection__sale_order__financing_type__mensual
+msgid "Mensual"
+msgstr "Mensual"
+
+#. module: sale_order_financing
+#: model:ir.model.fields,field_description:sale_order_financing.field_bank_financing_type__min_amount
+msgid "Min amount"
+msgstr "Cuantía mínima"
+
+#. module: sale_order_financing
+#: model:ir.model.fields,field_description:sale_order_financing.field_sale_order__month_duration
+msgid "Month duration"
+msgstr "Duración en meses"
+
+#. module: sale_order_financing
+#: model:ir.model.fields,field_description:sale_order_financing.field_sale_order__monthly_fee
+msgid "Monthly fee"
+msgstr "Pago mensual"
+
+#. module: sale_order_financing
+#: model_terms:ir.ui.view,arch_db:sale_order_financing.financing_template
+msgid "Monthly payment"
+msgstr "Pago mensual"
+
+#. module: sale_order_financing
+#: model:ir.model.fields,field_description:sale_order_financing.field_bank_financing_type__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: sale_order_financing
+#: model:ir.model.fields.selection,name:sale_order_financing.selection__bank_financing_type__type__quarterly
+#: model:ir.model.fields.selection,name:sale_order_financing.selection__sale_order__financing_type__quarterly
+msgid "Quarterly"
+msgstr "Trimestral"
+
+#. module: sale_order_financing
+#: model:ir.model.fields,field_description:sale_order_financing.field_bank_financing_type__bank_reference
+msgid "Reference"
+msgstr "Referencia"
+
+#. module: sale_order_financing
+#: model:ir.model,name:sale_order_financing.model_sale_order
+msgid "Sales Order"
+msgstr "Pedido de venta"
+
+#. module: sale_order_financing
+#: model_terms:ir.ui.view,arch_db:sale_order_financing.bank_financing_view_search
+msgid "Search Financing"
+msgstr "Buscar financiación"
+
+#. module: sale_order_financing
+#: model:ir.model.fields,field_description:sale_order_financing.field_bank_financing_type__start_date
+msgid "Start date"
+msgstr "Fecha de inicio"
+
+#. module: sale_order_financing
+#: model:ir.model.fields.selection,name:sale_order_financing.selection__bank_financing_type__type__tae
+#: model:ir.model.fields.selection,name:sale_order_financing.selection__sale_order__financing_type__tae
+msgid "TAE"
+msgstr "TAE"
+
+#. module: sale_order_financing
+#: model:ir.model.fields.selection,name:sale_order_financing.selection__bank_financing_type__type__tin
+#: model:ir.model.fields.selection,name:sale_order_financing.selection__sale_order__financing_type__tin
+msgid "TIN"
+msgstr "TIN"
+
+#. module: sale_order_financing
+#: model:ir.model.fields,field_description:sale_order_financing.field_bank_financing_type__type
+#: model:ir.model.fields,field_description:sale_order_financing.field_sale_order__financing_type
+msgid "Type"
+msgstr "Tipo"
+
+#. module: sale_order_financing
+#: model:ir.model.fields,field_description:sale_order_financing.field_bank_financing_type__finish_date
+msgid "Valid date"
+msgstr "Fecha de validez"
+
+#. module: sale_order_financing
+#: model:ir.model.fields.selection,name:sale_order_financing.selection__bank_financing_type__type__variable
+#: model:ir.model.fields.selection,name:sale_order_financing.selection__sale_order__financing_type__variable
+msgid "variable"
+msgstr "Variable"

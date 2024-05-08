@@ -1,0 +1,21 @@
+<odoo>
+	<data>
+		<record id="inventariopro_update_form_view" model='ir.ui.view'>
+			<field name="name">inventariopro.update.form.view</field>
+			<field name="model">inventariopro.update.wizard</field>
+			<field name="arch" type="xml">
+				<form>
+					<span>
+						Update actual stock with the stock of InventarioPro
+					</span>
+					<footer>
+		        		<button type="object" class="oe_highlight" name="action_update_stock">
+		        			Update
+		        		</button>
+		        		<button string="Cancel"  special="cancel"/>
+		        	</footer>
+				</form>
+			</field>
+		</record>
+	</data>
+</odoo>

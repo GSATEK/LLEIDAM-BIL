@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_lleidamobil_presupost_lleidamobil_presupost,lleidamobil_presupost.lleidamobil_presupost,model_lleidamobil_presupost_lleidamobil_presupost,base.group_user,1,1,1,1

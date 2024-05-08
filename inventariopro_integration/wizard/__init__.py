@@ -1,0 +1,1 @@
+from . import inventario_pro_update_wizard

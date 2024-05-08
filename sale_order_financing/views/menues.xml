@@ -1,0 +1,6 @@
+<odoo>
+
+<!-- MENÚS -->   
+    <menuitem id="account_menu_banks" action="base.action_res_bank_form" parent="account.account_banks_menu" name="Banks" groups="account.group_account_manager" sequence="4"/>
+    <menuitem id="account_menu_financing" action="sale_order_financing.action_bank_financing_form" parent="account.account_banks_menu" name="Financing Types" groups="account.group_account_manager" sequence="5"/>
+</odoo>
